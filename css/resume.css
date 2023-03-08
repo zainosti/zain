@@ -251,6 +251,9 @@ a {
  #abouts .my-skills{
   display:block;
 }
+  .skillicons{
+    display:block;
+  }
  
 
 }
