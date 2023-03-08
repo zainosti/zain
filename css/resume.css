@@ -213,7 +213,10 @@ a {
     max-width: inherit;
   }
   .skilltitle{
-    max-width:inherit;
+    display:block;
+  }
+  .skillpic{
+    display:block;
   }
 
 
