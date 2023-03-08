@@ -212,6 +212,9 @@ a {
   .card {
     max-width: inherit;
   }
+  .my-skills{
+    display:block;
+  }
 
 
 }
