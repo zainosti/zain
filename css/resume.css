@@ -254,6 +254,13 @@ a {
   .skillicons{
     display:block;
   }
+  .skillicons .adjust-heading h6{
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+}
  
 
 }
