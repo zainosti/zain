@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1536px;
+  padding: 0 16px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  margin-bottom: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#hero-section {
+  border-radius: 44px;
+  padding: 42px;
+  background: rgb(229,186,115);
+background: linear-gradient(188deg, rgba(229,186,115,1) 35%, rgba(250,248,241,1) 100%);
+  
+  margin-bottom: 160px;
+}
+
+#hero-section .my-pic {
+  width: 184px;
+  margin: 0 auto 32px auto;
+}
+
+#hero-section .my-pic img {
+  transform: scale(1.3);
+  width: 100%;
+}
+
+
+
+
+/********** General Heading css *********/
+.head-1, .head-2, .head-4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.head-1 {
+  font-size: 92px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.head-2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 48px;
+  text-align: justify;
+}
+
+.head-4 {
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-justify{
+  text-align: justify;
+}
+
+/********** End General Heading css *********/
+
+#hero-section .head-4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* #hero-section .intro{
+  width:990px;
+  margin:0 auto;
+} */
+
+#hero-section .intro h4{
+  margin-bottom: 32px;
+}
+
+
+.btn-black {
+  border-radius: 50px;
+  padding: 8px 40px;
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+}
+
+.hero-btns {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#portfolio {
+  max-width: 969px;
+  width: 100%;
+  margin: 0 auto 160px auto;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 309px;
+  width: 100%;
+}
+
+.badge-container {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.badge {
+  border-radius: 50px;
+  padding: 8px 24px;
+  width: max-content;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 8px;
+}
+
+.badge-blue {
+  background-color: #0DA5E9;
+  color: #fff;
+}
+
+.badge-yellow {
+  background-color: #FCE68A;
+  color: #000;
+}
+
+.img-card {
+  border-radius: 18px;
+  padding: 8px 4px;
+  margin-bottom: 16px;
+}
+
+.img-card img {
+  width: 100%;
+}
+
+.img-card-red {
+  background-color: #E13738;
+}
+
+@media screen and (max-width: 650px) {
+  #hero-section {
+    margin-bottom: 40px;
+  }
+  #hero-section .head-4 {
+    font-size: 32px;
+  }
+
+  .hero-btns {
+    justify-content: center;
+  }
+
+  .head-1 {
+    font-size: 56px;
+  }
+
+  .head-2 {
+    font-size: 40px;
+  }
+
+  .head-4 {
+    font-size: 32px;
+  }
+
+  .btn-black, a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .btn-black {
+    margin-bottom: 24px;
+  }
+
+  .card {
+    max-width: inherit;
+  }
+
+
+}
+
+/***************** About-My skills ******************/
+
+#abouts{
+  max-width: 969px;
+  width: 100%;
+  margin: 0 auto 160px auto;
+  box-sizing: border-box;
+}
+
+#abouts .my-skills{
+  display:flex;
+}
+
+.skill-section .skilltitle{
+  border-left: 5px solid #111827;
+  padding-left: 48px;
+  margin-bottom: 56px;
+}
+.skill-section h3{
+  margin-bottom: 48px;
+}
+
+.skillicons{
+  display: flex;
+} 
+.skillicons .adjust-heading h6{
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+}
