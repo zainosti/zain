@@ -212,10 +212,11 @@ a {
   .card {
     max-width: inherit;
   }
+ #abouts .my-skills{
+  display:flex;
+   flex-direction: row;
+}
  
-  #abouts{
-    max-width:500px;
-  }
 
 
 }
