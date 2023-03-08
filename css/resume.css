@@ -212,13 +212,9 @@ a {
   .card {
     max-width: inherit;
   }
-  #abouts .my-skills{
-    display:block;
-  }
+ 
   #abouts{
     max-width:500px;
-    width:100%;
-  
   }
 
 
