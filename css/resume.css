@@ -213,8 +213,7 @@ a {
     max-width: inherit;
   }
  #abouts .my-skills{
-  display:flex;
-   flex-direction: column;
+  display:block;
 }
  
 
