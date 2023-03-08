@@ -212,11 +212,13 @@ a {
   .card {
     max-width: inherit;
   }
-  .skill-section{
+  #abouts .my-skills{
     display:block;
   }
-  .skillpic{
-    display:block;
+  #abouts{
+    max-width:500px;
+    width:100%;
+  
   }
 
 
